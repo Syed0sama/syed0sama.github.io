@@ -1,0 +1,148 @@
+
+* {
+  margin: 0;
+  /* padding: 0; */
+}
+
+.Profile {
+  text-align: center;
+  display: block;
+  background-image: url('/Images/o.jpg');
+  height: 700px;
+  border: 3px solid yellowgreen;
+  color: #65ea53;
+  justify-content: center;
+  font-size: large;
+  word-spacing: 5px;
+  line-height: 25px;
+
+}
+
+table,
+th,
+td {
+  border: 3px solid black;
+
+}
+
+.link_container {
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #65ea53;
+  
+}
+
+#career_objective {
+  margin-left: 30px;
+  text-align: left;
+  width: 1200px;
+  color: #65ea53;
+  
+}
+
+#Education {
+  padding-left: 50px;
+  height: 630px;
+  width: 96.75%;
+  padding-top: 60px;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/ed.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: large;
+}
+#skills{
+  font-size: x-large;
+  padding-left: 50px;
+  height: 680px;
+  width: 96.75%;
+  padding-top:20px;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/pcb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+#softskills{
+  padding-left: 200px;
+  overflow: hidden;
+  font-size: x-large;
+
+}
+#genskills{
+  float: left;
+  font-size: x-large;
+  
+}
+
+img {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.topnav {
+  background-color: rgb(33, 33, 33);
+  overflow: hidden;;
+  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.projects{
+  padding-left: 50px;
+  height: 1600px;
+  width: 96.75%;
+  padding-top:20px;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  background:linear-gradient(rgb(0, 0, 0), rgba(49, 47, 47, 0.8)), url("/Images/we.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 35px;
+  font-size: large;
+  background-attachment: fixed;
+}
+#major{
+  padding-left: 400px;
+  height: 550px;
+  width: 96.75%;
+  padding-top:150px;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  background: linear-gradient(rgb(0, 0, 0), rgba(71, 68, 68, 0.8)), url("/Images/maj.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 35px;
+  font-size: x-large;
+  
+
+}

@@ -40,6 +40,7 @@ td {
   margin-left: 30px;
   text-align: left;
   width: auto;
+  height: auto;
   max-width: 100%;
   color: #65ea53;
   
@@ -145,6 +146,10 @@ img {
   background-repeat: no-repeat;
   line-height: 35px;
   font-size: x-large;
-  
-
 }
+.navbar .navbar-nav .nav-link:hover
+{
+  background-color: white;
+  color: black !important;
+}
+

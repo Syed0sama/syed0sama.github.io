@@ -7,6 +7,10 @@ body, main
 {
   min-height: 100vh;
 }
+h2
+{
+  font-size: 5vw;
+}
 .Profile {
   text-align: center;
   display: block;
@@ -51,15 +55,14 @@ td {
 
 #Education {
   padding-left: 50px;
-  height: 630px;
-  width: 96.75%;
+  min-height: 100vh;
+  /* min-width: 100vh; */
   padding-top: 60px;
   color: white;
-  overflow: hidden;
   background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/ed.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: large;
+  font-size: 3vw;
 }
 #skills{
   font-size: x-large;

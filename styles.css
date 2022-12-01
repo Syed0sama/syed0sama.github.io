@@ -3,12 +3,15 @@
   margin: 0;
   /* padding: 0; */
 }
-
+body, main
+{
+  min-height: 100vh;
+}
 .Profile {
   text-align: center;
   display: block;
   background-image: url('/Images/o.jpg');
-  height: auto;
+  min-height: 100vh;
   width:auto;
   border: 3px solid yellowgreen;
   color: #65ea53;

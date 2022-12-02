@@ -21,6 +21,16 @@ body, main
   line-height: 25px;
 
 }
+#career_objective {
+  margin-left: 30px;
+  text-align: left;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: #65ea53;
+  font-size: large;
+  
+}
 
 table,
 th,
@@ -39,20 +49,11 @@ td {
   
 }
 
-#career_objective {
-  margin-left: 30px;
-  text-align: left;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  color: #65ea53;
-  
-}
+
 
 #Education {
   padding-left: 50px;
   min-height: 100vh;
-
   padding-top: 60px;
   color: white;
   background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/ed.jpg");
@@ -61,30 +62,19 @@ td {
   
 }
 #skills{
-  font-size: x-large;
-  padding-left: 50px;
-  height: 680px;
-  width: 96.75%;
-  padding-top:20px;
+  
+
+  min-height: 100vh;
+  width: 100%;
+  
   color: rgb(255, 255, 255);
-  overflow: hidden;
   background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/pcb.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   
 
 }
-#softskills{
-  padding-left: 200px;
-  overflow: hidden;
-  font-size: x-large;
 
-}
-#genskills{
-  float: left;
-  font-size: x-large;
-  
-}
 
 img {
   margin-right: 20px;

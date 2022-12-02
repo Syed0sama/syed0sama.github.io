@@ -63,16 +63,12 @@ td {
 }
 #skills{
   
-
   min-height: 100vh;
   width: 100%;
-  
   color: rgb(255, 255, 255);
   background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/pcb.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  
-
 }
 
 
@@ -113,17 +109,10 @@ img {
   color: white;
 }
 .projects{
-  padding-left: 50px;
-  height: 1600px;
-  width: 96.75%;
-  padding-top:20px;
   color: rgb(255, 255, 255);
-  overflow: hidden;
   background:linear-gradient(rgb(0, 0, 0), rgba(49, 47, 47, 0.8)), url("/Images/we.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  line-height: 35px;
-  font-size: large;
   background-attachment: fixed;
 }
 #major{

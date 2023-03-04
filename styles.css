@@ -106,15 +106,9 @@ color: white;
   min-height: 250vh;
   width: 100%;
   color: rgb(255, 255, 255);
-  background:url("/Images/Syed\ Muhammad\ Osama\ CV_page-0001.jpg");
+  background: url("/Images/Syed\ Muhammad\ Osama\ CV_page-0001.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top:20px ;
-}
-.fcc-btn {
-  background-color: #0222f3;
-  color: white;
-  padding: 15px 25px;
-  font-size: large;
+  padding-top:20px;
 }
 

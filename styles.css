@@ -1,0 +1,120 @@
+
+
+body, main
+{
+  min-height: 100vh;
+  height: 100%;
+}
+
+.Profile {
+  text-align: center;
+  display: block;
+  background-image: url('/Images/o.jpg');
+  min-height: 100vh;
+  width:auto;
+  border: 3px solid yellowgreen;
+  color: #65ea53;
+  justify-content: center;
+  word-spacing: 5px;
+  line-height: 25px;
+
+}
+#career_objective {
+  margin-left: 30px;
+  text-align: left;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: #65ea53;
+  font-size: large;
+  
+}
+.link_container {
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #65ea53;
+  
+}
+
+
+
+#Education {
+  padding-left: 50px;
+  min-height: 100vh;
+  padding-top: 60px;
+  color: white;
+  background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/ed.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#skills{
+  
+  min-height: 100vh;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/pcb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+img {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+#projects{
+  color: rgb(255, 255, 255);
+  background:linear-gradient(rgb(0, 0, 0), rgba(49, 47, 47, 0.8)), url("/Images/we.jpg");
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height: auto;
+}
+#major{
+  
+  min-height: 100vh;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(rgb(0, 0, 0), rgba(71, 68, 68, 0.8)), url("/Images/maj.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+table,th,td 
+{
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  
+}  
+caption
+{
+color: white;
+}
+.navbar .navbar-nav .nav-link:hover
+{
+  background-color: white;
+  color: black !important;
+}
+#resume{
+  min-height: 250vh;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background:url("/Images/Syed\ Muhammad\ Osama\ CV_page-0001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top:20px ;
+}
+.fcc-btn {
+  background-color: #0222f3;
+  color: white;
+  padding: 15px 25px;
+  font-size: large;
+}
+

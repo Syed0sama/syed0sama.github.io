@@ -56,7 +56,7 @@ body, main
   min-height: 100vh;
   width: 100%;
   color: rgb(255, 255, 255);
-  background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/pcb.jpg");
+  background: linear-gradient(rgb(0, 0, 0),rgba(71, 68, 68, 0.8)), url("/Images/skillbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -73,8 +73,8 @@ img {
 
 #projects{
   color: rgb(255, 255, 255);
-  background:linear-gradient(rgb(0, 0, 0), rgba(49, 47, 47, 0.8)), url("/Images/we.jpg");
-  background-repeat: repeat-y;
+  background:linear-gradient(rgb(0, 0, 0), rgba(49, 47, 47, 0.8)), url("/Images/workbg.jpg");
+  background-repeat: repeat-xy;
   background-attachment: fixed;
   height: auto;
 }
@@ -103,10 +103,10 @@ color: white;
   color: black !important;
 }
 #resume{
-  min-height: 250vh;
+  min-height: 270vh;
   width: 100%;
   color: rgb(255, 255, 255);
-  background: url("/Images/Syed\ Muhammad\ Osama\ CV_page-0001.jpg");
+  background: url("/Images/cv_late.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top:20px;
